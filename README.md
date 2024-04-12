@@ -9,7 +9,7 @@ It is using .pem file containing the public key to validate the JWT token
 https://developmentapi.deldiosmotorclubadmin.com/swagger/index.html
 ```
 
-Note: JWT Bearer Token is required for testing given at the end of the file
+Note: JWT Bearer Token is required for testing and it is given at the end of the file
 
 
 ## Languages and Frameworks
