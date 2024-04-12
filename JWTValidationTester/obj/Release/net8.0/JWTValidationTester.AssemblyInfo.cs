@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("JWTValidationTester")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ca5e7c5b53f295d1ab8f8d29db8c3fe604296318")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fda2b23416aea005c50d610606568c4dafb3ff03")]
 [assembly: System.Reflection.AssemblyProductAttribute("JWTValidationTester")]
 [assembly: System.Reflection.AssemblyTitleAttribute("JWTValidationTester")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -50,7 +50,15 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "MSTest.TestFramework": {
+              "target": "Package",
+              "version": "[3.3.1, )"
+            },
             "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.9.0, )"
+            },
+            "Microsoft.TestPlatform": {
               "target": "Package",
               "version": "[17.9.0, )"
             },
@@ -59,6 +67,10 @@
               "version": "[2.7.1, )"
             },
             "xunit.extensibility.core": {
+              "target": "Package",
+              "version": "[2.7.1, )"
+            },
+            "xunit.extensibility.execution": {
               "target": "Package",
               "version": "[2.7.1, )"
             }

@@ -75,7 +75,7 @@ namespace JwtValidatorApi
             }
             catch (Exception ex)
             {
-                return StatusCode(500, Messages.InteralServerError);
+                return BadRequest(new ErrorResponse { Message = Messages.TokenInvalid });
             }
         }
 

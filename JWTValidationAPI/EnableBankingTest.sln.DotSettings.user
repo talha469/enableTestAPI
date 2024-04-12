@@ -1,0 +1,9 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=9f9b8fdc_002Db6e6_002D417a_002Db023_002D16a193e1869a/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="ValidToken_ReturnsOk" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::D7EA7A49-15D1-4A5F-8846-B3FAC5E9408E::net8.0::EndpointTests.ExpiredToken_ReturnsBadRequest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::D7EA7A49-15D1-4A5F-8846-B3FAC5E9408E::net8.0::EndpointTests.Setup&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::D7EA7A49-15D1-4A5F-8846-B3FAC5E9408E::net8.0::EndpointTests.ValidToken_ReturnsOk&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::D7EA7A49-15D1-4A5F-8846-B3FAC5E9408E::net8.0::EndpointTests.InvalidToken_ReturnsBadRequest&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
