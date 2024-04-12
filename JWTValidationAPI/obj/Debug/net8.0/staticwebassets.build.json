@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "KHcI1EojGg9kUnMYs8UGisDduSF3+WuFbGEaPEipQCM=",
+  "Source": "EnableBankingTest",
+  "BasePath": "_content/EnableBankingTest",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

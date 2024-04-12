@@ -1,0 +1,31 @@
+[
+  {
+    "ContainingType": "JwtValidatorApi.JwtValidationController",
+    "Method": "ValidateJwt",
+    "RelativePath": "api/JwtValidation",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "EnableBankingTest.SwaggerResponses.ValidationResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "EnableBankingTest.SwaggerResponses.ErrorResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 400
+      }
+    ]
+  }
+]
