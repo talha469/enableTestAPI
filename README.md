@@ -70,7 +70,7 @@ Test Cases can be run to check some possible scenarios of the API
 
 Steps
 
-1- Git Clone enableTestAPI
+1- Git Clone enableTestAPI -> JWTValidationTester
 
 2- Navigate to the directory
 
