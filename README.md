@@ -37,13 +37,22 @@ xunit.runner.visualstudio (2.5.8)
 
 ## Installation
 
-Packages are already installed in the project 
+To run the project on machine, Git Clone the project
 
-For sdk please refer to the the .NET CLI
+Note: Required packages are already installed in the project 
+
+In case of missing sdk please refer to the Microsoft website on the following link and download .Net 8.0
+
 
 ```bash
-dotnet add package Microsoft.NET.Test.Sdk --version 17.9.0
+https://dotnet.microsoft.com/en-us/download/visual-studio-sdks
 ```
+In case of any missing project dependencies, please run the following command in the project directory
+
+```bash
+dotnet restore
+```
+
 
 ## Testing on swagger
 
