@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>EnableBankingTest</name>
+    </assembly>
+    <members>
+        <member name="M:JwtValidatorApi.JwtValidationController.ValidateJwt">
+            <summary>
+            Validates the JWT token.
+            </summary>
+            <remarks>
+            Sample request:
+                GET /api/validatejwt
+            </remarks>
+            <returns>Returns a response indicating the validity of the JWT token.</returns>
+        </member>
+    </members>
+</doc>

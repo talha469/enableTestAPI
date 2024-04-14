@@ -25,6 +25,15 @@
           "text/json"
         ],
         "StatusCode": 400
+      },
+      {
+        "Type": "EnableBankingTest.SwaggerResponses.ErrorResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 401
       }
     ]
   }

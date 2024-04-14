@@ -1,4 +1,7 @@
+using System.Reflection;
 using System.Text;
+using EnableBankingTest.Helper_Methods;
+using EnableBankingTest.SwaggerResponses;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
@@ -10,22 +13,6 @@ IConfiguration configuration = new ConfigurationBuilder()
     .AddJsonFile("appsettings.json")
     .Build();
 
-
-// Add services to the container.
-//builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
-//    .AddJwtBearer(options =>
-//    {
-//        options.TokenValidationParameters = new TokenValidationParameters
-//        {
-//            ValidateIssuer = true,
-//            ValidateAudience = true,
-//            ValidateLifetime = true,
-//            ValidateIssuerSigningKey = true,
-//            ValidIssuer = configuration["Jwt:Issuer"],
-//            ValidAudience = configuration["Jwt:Audience"],
-//            IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(configuration["Jwt:Key"]))
-//        };
-//    });
 
 builder.Services.AddControllers();
 
@@ -43,6 +30,7 @@ builder.Services.AddSwaggerGen(c =>
             Email = "marshad23@student.oulu.fi"
         }
     });
+
     c.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
     {
         Description = "JWT Authorization header using the Bearer scheme.",
@@ -63,6 +51,24 @@ builder.Services.AddSwaggerGen(c =>
             Array.Empty<string>()
         }
     });
+
+    c.MapType<ErrorResponse>(() => new OpenApiSchema
+    {
+        Type = "object",
+        Properties = new Dictionary<string, OpenApiSchema>
+        {
+            { "message", new OpenApiSchema { Type = "string" } }
+        }
+    });
+
+    var xmlFile = $"{Assembly.GetExecutingAssembly().GetName().Name}.xml";
+    var xmlPath = Path.Combine(AppContext.BaseDirectory, xmlFile);
+    if (File.Exists(xmlPath))
+    {
+        c.IncludeXmlComments(xmlPath);
+    }
+
+    c.OperationFilter<ExamplesOperationFilter>();
 });
 
 

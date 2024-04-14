@@ -39,3 +39,4 @@ D:\Git\EnableBankingTest\JWTValidationAPI\obj\Release\net8.0\refint\EnableBankin
 D:\Git\EnableBankingTest\JWTValidationAPI\obj\Release\net8.0\EnableBankingTest.pdb
 D:\Git\EnableBankingTest\JWTValidationAPI\obj\Release\net8.0\EnableBankingTest.genruntimeconfig.cache
 D:\Git\EnableBankingTest\JWTValidationAPI\obj\Release\net8.0\ref\EnableBankingTest.dll
+D:\Git\EnableBankingTest\JWTValidationAPI\bin\Release\net8.0\EnableBankingTest.xml

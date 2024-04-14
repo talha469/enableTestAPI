@@ -15,10 +15,14 @@ namespace JwtValidatorApi
         /// Validates the JWT token.
         /// </summary>
         /// <returns>Returns a response indicating the validity of the JWT token.</returns>
+        /// <response code="200">Returns a response indicating the validity of the JWT token.</response>
+        /// <response code="400">If the JWT token is invalid.</response>
+        /// <response code="401">If the user is not authorized or token is expired</response>
         [HttpGet]
         [AllowAnonymous]
         [ProducesResponseType(StatusCodes.Status200OK, Type = typeof(ValidationResponse))]
         [ProducesResponseType(StatusCodes.Status400BadRequest, Type = typeof(ErrorResponse))]
+        [ProducesResponseType(StatusCodes.Status401Unauthorized, Type = typeof(ErrorResponse))]
         public async Task<IActionResult> ValidateJwt()
         {
             try
@@ -27,7 +31,7 @@ namespace JwtValidatorApi
 
                 if (string.IsNullOrEmpty(authorizationHeader))
                 {
-                    return BadRequest(new ErrorResponse { Message = Messages.AuthRequired });
+                    return Unauthorized(new ErrorResponse { Message = Messages.AuthRequired });
                 }
 
                 if (!authorizationHeader.StartsWith(ApplicationConstants.Bearer))
@@ -60,7 +64,7 @@ namespace JwtValidatorApi
                 }
                 catch (SecurityTokenExpiredException)
                 {
-                    return BadRequest(new ErrorResponse { Message = Messages.TokenExpired });
+                    return Unauthorized(new ErrorResponse { Message = Messages.TokenExpired });
                 }
                 catch (SecurityTokenInvalidSignatureException)
                 {

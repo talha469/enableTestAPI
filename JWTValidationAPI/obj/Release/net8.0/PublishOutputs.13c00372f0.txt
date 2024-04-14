@@ -17,3 +17,4 @@ D:\Git\EnableBankingTest\JWTValidationAPI\obj\Release\net8.0\PubTmp\Out\Swashbuc
 D:\Git\EnableBankingTest\JWTValidationAPI\obj\Release\net8.0\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerGen.dll
 D:\Git\EnableBankingTest\JWTValidationAPI\obj\Release\net8.0\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerUI.dll
 D:\Git\EnableBankingTest\JWTValidationAPI\obj\Release\net8.0\PubTmp\Out\System.IdentityModel.Tokens.Jwt.dll
+D:\Git\EnableBankingTest\JWTValidationAPI\obj\Release\net8.0\PubTmp\Out\EnableBankingTest.xml

@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>EnableBankingTest</name>
+    </assembly>
+    <members>
+        <member name="M:JwtValidatorApi.JwtValidationController.ValidateJwt">
+            <summary>
+            Validates the JWT token.
+            </summary>
+            <returns>Returns a response indicating the validity of the JWT token.</returns>
+            <response code="200">Returns a response indicating the validity of the JWT token.</response>
+            <response code="400">If the JWT token is invalid.</response>
+            <response code="401">If the user is not authorized or token is expired</response>
+        </member>
+    </members>
+</doc>
