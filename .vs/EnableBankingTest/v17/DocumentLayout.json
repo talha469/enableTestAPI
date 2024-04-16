@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "D:\\Git\\EnableBankingTest\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Git\\EnableBankingTest\\DockerFile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DockerFile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Git\\EnableBankingTest\\JWTValidationAPI\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:JWTValidationAPI\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Git\\EnableBankingTest\\JWTValidationTester\\JWTValidationResponses.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:JWTValidationTester\\JWTValidationResponses.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -71,6 +79,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "DockerFile",
+              "DocumentMoniker": "D:\\Git\\EnableBankingTest\\DockerFile",
+              "RelativeDocumentMoniker": "DockerFile",
+              "ToolTip": "D:\\Git\\EnableBankingTest\\DockerFile",
+              "RelativeToolTip": "DockerFile",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-04-16T00:46:16.959Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Git\\EnableBankingTest\\JWTValidationAPI\\Program.cs",
+              "RelativeDocumentMoniker": "JWTValidationAPI\\Program.cs",
+              "ToolTip": "D:\\Git\\EnableBankingTest\\JWTValidationAPI\\Program.cs",
+              "RelativeToolTip": "JWTValidationAPI\\Program.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAAEAAAABCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-14T07:49:28.226Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "JWTValidationResponses.cs",
               "DocumentMoniker": "D:\\Git\\EnableBankingTest\\JWTValidationTester\\JWTValidationResponses.cs",
               "RelativeDocumentMoniker": "JWTValidationTester\\JWTValidationResponses.cs",
@@ -83,7 +117,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "ProjectSettings.json",
               "DocumentMoniker": "D:\\Git\\EnableBankingTest\\.vs\\ProjectSettings.json",
               "RelativeDocumentMoniker": ".vs\\ProjectSettings.json",
@@ -91,7 +125,8 @@
               "RelativeToolTip": ".vs\\ProjectSettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-04-12T04:41:37.497Z"
+              "WhenOpened": "2024-04-12T04:41:37.497Z",
+              "EditorCaption": ""
             }
           ]
         }

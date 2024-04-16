@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\JWTValidationAPI",
+    "\\JWTValidationAPI\\Helper Methods"
   ],
-  "SelectedNode": "\\JWTValidationTester",
+  "SelectedNode": "\\JWTValidationAPI\\EnableBankingTest.csproj",
   "PreviewInSolutionExplorer": false
 }

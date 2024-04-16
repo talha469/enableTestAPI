@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "hYlAlI79hAui6iqTWn+Duwy7cOMiD1KnFMEB97wRX9yM+/VpJPd/cy6Ihz/7zyhQbMkz8Tu/qY1UjyOcaPMyFQ==",
+  "dgSpecHash": "pJBS/8DSoENSikL+PWw9ERtEZKrnJezW8eS8n1qJBvFRureZ3fcyZsnsxRuJr7K83kf6LU+6QIVWktYNsn3oUg==",
   "success": true,
   "projectFilePath": "D:\\Git\\EnableBankingTest\\JWTValidationAPI\\EnableBankingTest.csproj",
   "expectedPackageFiles": [
@@ -13,6 +13,7 @@
     "C:\\Users\\talha\\.nuget\\packages\\microsoft.identitymodel.protocols.openidconnect\\7.1.2\\microsoft.identitymodel.protocols.openidconnect.7.1.2.nupkg.sha512",
     "C:\\Users\\talha\\.nuget\\packages\\microsoft.identitymodel.tokens\\7.5.1\\microsoft.identitymodel.tokens.7.5.1.nupkg.sha512",
     "C:\\Users\\talha\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\talha\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.19.6\\microsoft.visualstudio.azure.containers.tools.targets.1.19.6.nupkg.sha512",
     "C:\\Users\\talha\\.nuget\\packages\\swashbuckle.aspnetcore\\6.5.0\\swashbuckle.aspnetcore.6.5.0.nupkg.sha512",
     "C:\\Users\\talha\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.5.0\\swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
     "C:\\Users\\talha\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.5.0\\swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",

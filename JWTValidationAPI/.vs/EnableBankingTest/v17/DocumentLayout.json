@@ -3,19 +3,23 @@
   "WorkspaceRootPath": "D:\\Git\\EnableBankingTest\\JWTValidationAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{743998D2-734E-4130-B944-2FD0AF66D6AD}|EnableBankingTest.csproj|d:\\git\\enablebankingtest\\jwtvalidationapi\\controllers\\jwtvalidationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{743998D2-734E-4130-B944-2FD0AF66D6AD}|EnableBankingTest.csproj|solutionrelative:controllers\\jwtvalidationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{743998D2-734E-4130-B944-2FD0AF66D6AD}|EnableBankingTest.csproj|d:\\git\\enablebankingtest\\jwtvalidationapi\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{743998D2-734E-4130-B944-2FD0AF66D6AD}|EnableBankingTest.csproj|solutionrelative:dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D7EA7A49-15D1-4A5F-8846-B3FAC5E9408E}|..\\JWTValidationTester\\JWTValidationTester.csproj|d:\\git\\enablebankingtest\\jwtvalidationtester\\jwtvalidationresponses.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{743998D2-734E-4130-B944-2FD0AF66D6AD}|EnableBankingTest.csproj|d:\\git\\enablebankingtest\\jwtvalidationapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{743998D2-734E-4130-B944-2FD0AF66D6AD}|EnableBankingTest.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{743998D2-734E-4130-B944-2FD0AF66D6AD}|EnableBankingTest.csproj|d:\\git\\enablebankingtest\\jwtvalidationapi\\helper methods\\examplesoperationfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{743998D2-734E-4130-B944-2FD0AF66D6AD}|EnableBankingTest.csproj|solutionrelative:helper methods\\examplesoperationfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{743998D2-734E-4130-B944-2FD0AF66D6AD}|EnableBankingTest.csproj|d:\\git\\enablebankingtest\\jwtvalidationapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{743998D2-734E-4130-B944-2FD0AF66D6AD}|EnableBankingTest.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{743998D2-734E-4130-B944-2FD0AF66D6AD}|EnableBankingTest.csproj|d:\\git\\enablebankingtest\\jwtvalidationapi\\controllers\\jwtvalidationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{743998D2-734E-4130-B944-2FD0AF66D6AD}|EnableBankingTest.csproj|solutionrelative:controllers\\jwtvalidationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7EA7A49-15D1-4A5F-8846-B3FAC5E9408E}|..\\JWTValidationTester\\JWTValidationTester.csproj|d:\\git\\enablebankingtest\\jwtvalidationtester\\jwtvalidationresponses.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{743998D2-734E-4130-B944-2FD0AF66D6AD}|EnableBankingTest.csproj|d:\\git\\enablebankingtest\\jwtvalidationapi\\enablebankingtest.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
@@ -46,7 +50,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 13,
+          "SelectedChildIndex": 12,
           "Children": [
             {
               "$type": "Bookmark",
@@ -98,20 +102,32 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "EnableBankingTest",
+              "DocumentIndex": 0,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "D:\\Git\\EnableBankingTest\\JWTValidationAPI\\Dockerfile",
+              "RelativeDocumentMoniker": "Dockerfile",
+              "ToolTip": "D:\\Git\\EnableBankingTest\\JWTValidationAPI\\Dockerfile",
+              "RelativeToolTip": "Dockerfile",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-04-16T01:08:12.277Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "EnableBankingTest.csproj",
               "DocumentMoniker": "D:\\Git\\EnableBankingTest\\JWTValidationAPI\\EnableBankingTest.csproj",
               "RelativeDocumentMoniker": "EnableBankingTest.csproj",
               "ToolTip": "D:\\Git\\EnableBankingTest\\JWTValidationAPI\\EnableBankingTest.csproj",
               "RelativeToolTip": "EnableBankingTest.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-04-14T06:53:44.269Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-14T06:53:44.269Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "JwtValidationController.cs",
               "DocumentMoniker": "D:\\Git\\EnableBankingTest\\JWTValidationAPI\\Controllers\\JwtValidationController.cs",
               "RelativeDocumentMoniker": "Controllers\\JwtValidationController.cs",
@@ -119,25 +135,24 @@
               "RelativeToolTip": "Controllers\\JwtValidationController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAABdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-12T06:17:37.229Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-12T06:17:37.229Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Git\\EnableBankingTest\\JWTValidationAPI\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "D:\\Git\\EnableBankingTest\\JWTValidationAPI\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAACcAAAAAAAAAAAAAADgAAAAYAAAA",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAuwEQAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-12T06:17:30.349Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "ExceptionAggregator.cs",
               "DocumentMoniker": "C:\\Users\\talha\\AppData\\Local\\SourceServer\\9c13d5eb06985b960f13a3f0cd94af5ce264b75baa03d579a49dafc0c0480d38\\src\\xunit.core\\Sdk\\ExceptionAggregator.cs",
               "ToolTip": "C:\\Users\\talha\\AppData\\Local\\SourceServer\\9c13d5eb06985b960f13a3f0cd94af5ce264b75baa03d579a49dafc0c0480d38\\src\\xunit.core\\Sdk\\ExceptionAggregator.cs",
@@ -147,7 +162,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "ExecutionTimer.cs",
               "DocumentMoniker": "C:\\Users\\talha\\AppData\\Local\\SourceServer\\c4caa13d75925e9f64221d9ac59fdbcb7c7bfdd1f698f6712c4b3e98536ce404\\src\\xunit.execution\\Sdk\\Frameworks\\ExecutionTimer.cs",
               "ToolTip": "C:\\Users\\talha\\AppData\\Local\\SourceServer\\c4caa13d75925e9f64221d9ac59fdbcb7c7bfdd1f698f6712c4b3e98536ce404\\src\\xunit.execution\\Sdk\\Frameworks\\ExecutionTimer.cs",
@@ -157,7 +172,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "JWTValidationResponses.cs",
               "DocumentMoniker": "D:\\Git\\EnableBankingTest\\JWTValidationTester\\JWTValidationResponses.cs",
               "RelativeDocumentMoniker": "..\\JWTValidationTester\\JWTValidationResponses.cs",
@@ -165,8 +180,7 @@
               "RelativeToolTip": "..\\JWTValidationTester\\JWTValidationResponses.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-12T04:39:39.521Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-12T04:39:39.521Z"
             },
             {
               "$type": "Document",
@@ -176,14 +190,13 @@
               "RelativeDocumentMoniker": "Helper Methods\\ExamplesOperationFilter.cs",
               "ToolTip": "D:\\Git\\EnableBankingTest\\JWTValidationAPI\\Helper Methods\\ExamplesOperationFilter.cs",
               "RelativeToolTip": "Helper Methods\\ExamplesOperationFilter.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAA1AAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-14T07:10:42.112Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-14T07:10:42.112Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "ErrorResponse.cs",
               "DocumentMoniker": "D:\\Git\\EnableBankingTest\\JWTValidationAPI\\SwaggerResponses\\ErrorResponse.cs",
               "RelativeDocumentMoniker": "SwaggerResponses\\ErrorResponse.cs",
@@ -191,12 +204,11 @@
               "RelativeToolTip": "SwaggerResponses\\ErrorResponse.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-12T06:17:53.103Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-12T06:17:53.103Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "TestInvoker.cs",
               "DocumentMoniker": "C:\\Users\\talha\\AppData\\Local\\SourceServer\\d5efa77b595b598efc8d4fee0f8c1d4e73d17a13ec532a8b022a50dbe8a8ec1f\\src\\xunit.execution\\Sdk\\Frameworks\\Runners\\TestInvoker.cs",
               "ToolTip": "C:\\Users\\talha\\AppData\\Local\\SourceServer\\d5efa77b595b598efc8d4fee0f8c1d4e73d17a13ec532a8b022a50dbe8a8ec1f\\src\\xunit.execution\\Sdk\\Frameworks\\Runners\\TestInvoker.cs",
@@ -206,7 +218,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Messages.cs",
               "DocumentMoniker": "D:\\Git\\EnableBankingTest\\JWTValidationAPI\\Helper Methods\\Messages.cs",
               "RelativeDocumentMoniker": "Helper Methods\\Messages.cs",

@@ -1,0 +1,31 @@
+# Use the official .NET SDK image as a base image
+FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build-env
+
+# Set the working directory in the container
+WORKDIR /app
+
+# Copy the .csproj files to the container
+COPY *.csproj ./
+# Restore NuGet packages
+RUN dotnet restore
+
+# Copy the remaining files to the container
+COPY . ./
+
+# Build the application
+RUN dotnet publish -c Release -o out
+
+# Use the official ASP.NET Core Runtime image as a base image
+FROM mcr.microsoft.com/dotnet/aspnet:8.0
+
+# Set the working directory in the container
+WORKDIR /app
+
+# Copy the built application from the build environment to the container
+COPY --from=build-env /app/out .
+
+# Expose port 80 to the outside world
+EXPOSE 80
+
+# Set the entry point for the container
+ENTRYPOINT ["dotnet", "EnableBankingTest.dll"]
