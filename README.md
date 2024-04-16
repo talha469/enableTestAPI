@@ -88,7 +88,7 @@ Follow these steps to run docker file
 
 Steps
 
-1- Git Clone enableTestAPI -> JWTValidationTest
+1- Git Clone enableTestAPI -> JWTValidationAPI
 
 2- Navigate to the directory
 
